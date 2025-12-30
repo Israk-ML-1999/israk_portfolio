@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #00BFFF;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -60,23 +60,25 @@ header {
 section {
   min-height: 100vh;
   width: 100%;
-  position: absolute;
+  position: relative;
   left: 0;
-  top: 0;
   padding: 3rem 18rem;
 }
 
 .container {
-  display: none;
-  transform: translateY(-100%) scale(0);
+  display: block;
+  transform: translateY(0) scale(1);
   transition: all 0.4s ease-in-out;
   background-color: var(--color-primary);
 }
 
 .active {
   display: block;
-  animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
+}
+
+.active-with-animation {
+  animation: appear 1s ease-in-out;
 }
 
 @keyframes appear {
@@ -220,6 +222,7 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
+  text-align: justify;
 }
 
 /*About*/
@@ -289,6 +292,7 @@ section {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
+  text-align: justify;
 }
 
 .about-container .left-about h4 {
@@ -365,6 +369,30 @@ section {
 
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 70%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .c-lang {
+  width: 75%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .machine-learning {
+  width: 90%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .deep-learning {
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .nlp {
+  width: 85%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .cv {
+  width: 80%;
+}
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .gen-ai {
+  width: 85%;
 }
 
 .stat-title {
