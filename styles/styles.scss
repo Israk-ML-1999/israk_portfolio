@@ -533,6 +533,31 @@ section {
     transform: scale(1);
 }
 
+// Project info section below images
+.portfolios .portfolio-item .project-info {
+    padding: 1.5rem 1rem;
+    background-color: var(--color-grey-5);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: -5px;
+
+    .project-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--color-white);
+        margin-bottom: 0.8rem;
+        line-height: 1.4;
+    }
+
+    .project-description {
+        font-size: 0.85rem;
+        font-style: italic;
+        color: var(--color-grey-2);
+        line-height: 1.6;
+        text-align: justify;
+    }
+}
+
 //Blogs Section
 .blogs {
     display: grid;
