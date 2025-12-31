@@ -76,37 +76,37 @@
             {
                 "id": "project-1",
                 "title": "Doctor Appointment Booking System",
-                "description": "A comprehensive healthcare management system that streamlines the appointment booking process for patients and doctors. Built with modern web technologies to provide an intuitive user experience."
+                "description": "An AI-powered hospital appointment booking system that enables patients to book, manage, and track doctor appoint ments through a natural conversational interface. Smart scheduling with 20 minute slot management, real-time doctor availability checking with real-time updates, Doctor off-day handling with alternative time suggestions and multiple medical departments."
             },
             {
                 "id": "project-2",
                 "title": "Medical Chatbot using RAG",
-                "description": "An intelligent medical chatbot powered by Generative AI and Retrieval-Augmented Generation (RAG) to provide accurate medical information and assistance to users."
+                "description": "Developed medical chatbot system that enables users to ask, understand, and receive accurate medical information through a natural conversational interface. Built this system uses RAG to extract relevant context from medical PDF documents. PDF-based knowledge ingestion, semantic search using vector embeddings, and fast, context-aware medical responses, alldelivered through a secure Flask-based web application with an interactive UI."
             },
             {
                 "id": "project-3",
                 "title": "Daily Life Personal Voice Assistant",
-                "description": "A smart voice assistant application designed to help with daily tasks, reminders, and information retrieval using natural language processing and speech recognition technologies."
+                "description": "Developed AI-powered voice assistant that lets you manage your tasks hands-free through natural voice commands. Built with FastAPI and leveraging OpenAI’s advanced language models. Answers questions about your schedule, and provides contextual assistance for task management."
             },
             {
                 "id": "project-4",
                 "title": "AI Video Summarizer with Multi-Agent Tools",
-                "description": "An advanced AI system that transcribes and summarizes video content using multi-agent architecture, making it easy to extract key information from long videos."
+                "description": "That system enables users to upload videos, transcribe audio, and interact with content through natural language queries.Supports automatic audio transcription, context-aware video summarization, fact-checking, and web-based information retrieval using a multi-agent architecture, delivering fast and intelligent insights."
             },
             {
                 "id": "project-5",
                 "title": "AI-Powered E-Commerce Inventory Tracking",
-                "description": "A real-time inventory management system for e-commerce platforms powered by AI to optimize stock levels, predict demand, and automate reordering processes."
+                "description": "Developed AI-powered E-commerce assistant that provides intelligent product suggestions, continuous embedding Product Information, multilingual conversational support, and the system integrates real-time inventory tracking."
             },
             {
                 "id": "project-6",
                 "title": "Natural Language to SQL System",
-                "description": "An innovative system that converts natural language queries into SQL statements, making database interactions accessible to non-technical users through AI-powered language understanding."
+                "description": "An innovative system that converts natural language queries into SQL statements, making database interactions accessible to non-technical users through AI-powered language understanding.provide profassional data analysis and visualization pdf report."
             },
             {
                 "id": "project-7",
                 "title": "Bangla News Headline Classifier & Sentiment Analysis",
-                "description": "A fine-tuned Bangla-BART model for multi-level, multi-class classification of Bangla news headlines with sentiment analysis capabilities, supporting the Bangla language NLP ecosystem."
+                "description": "Alow-resource Bangla news headline classification and sentiment analysis system developed using a fine-tuned BanglaBART transformer. Dual-head architecture to perform topic classification and sentiment prediction in a single inference pass, optimized for low-resource Bangla NLP settings. Use custom Bangla stop-word filtering and stemming pipelines."
             }
         ]
     };

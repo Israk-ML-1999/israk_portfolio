@@ -318,6 +318,74 @@ section {
 .about-stats .progress-bars .progress-bar .prog-title {
   text-transform: uppercase;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about-stats .progress-bars .progress-bar .prog-title i {
+  font-size: 1.2rem;
+}
+
+/* Original brand colors for each skill icon */
+.about-stats .progress-bars .progress-bar .prog-title .fa-html5 {
+  color: #E34F26;
+  /* HTML5 orange */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-python {
+  color: #3776AB;
+  /* Python blue */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-js {
+  color: #F7DF1E;
+  /* JavaScript yellow */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-database {
+  color: #00758F;
+  /* MySQL blue */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-css3-alt {
+  color: #1572B6;
+  /* CSS3 blue */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-bolt {
+  color: #009688;
+  /* FastAPI teal */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-code {
+  color: #A8B9CC;
+  /* C language blue-gray */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-robot {
+  color: #FF6F00;
+  /* Machine Learning orange */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-brain {
+  color: #8E24AA;
+  /* Deep Learning purple */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-comments {
+  color: #00BCD4;
+  /* NLP cyan */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-eye {
+  color: #4CAF50;
+  /* Computer Vision green */
+}
+
+.about-stats .progress-bars .progress-bar .prog-title .fa-magic {
+  color: #E91E63;
+  /* Generative AI pink */
 }
 
 .about-stats .progress-bars .progress-bar .progress-con {
@@ -574,7 +642,8 @@ section {
 }
 
 .portfolios .portfolio-item .project-info .project-description {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  font-style: italic;
   color: var(--color-grey-2);
   line-height: 1.6;
   text-align: justify;
