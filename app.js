@@ -107,6 +107,16 @@
                 "id": "project-7",
                 "title": "Bangla News Headline Classifier & Sentiment Analysis",
                 "description": "Alow-resource Bangla news headline classification and sentiment analysis system developed using a fine-tuned BanglaBART transformer. Dual-head architecture to perform topic classification and sentiment prediction in a single inference pass, optimized for low-resource Bangla NLP settings. Use custom Bangla stop-word filtering and stemming pipelines."
+            },
+            {
+                "id": "project-8",
+                "title": "Willmo Voice Assistant",
+                "description": "An advanced AI-powered voice assistant designed to provide intelligent conversational interactions, task automation, and personalized assistance through natural language processing and speech recognition technologies."
+            },
+            {
+                "id": "project-9",
+                "title": "Document Segmentation & Automate Rotation",
+                "description": "A computer vision system that automatically segments documents and corrects their orientation using deep learning techniques. Detects document boundaries, classifies rotation angles, and applies automated corrections for improved document processing workflows."
             }
         ]
     };
