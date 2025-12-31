@@ -70,6 +70,39 @@
         homeButton.classList.add("active-btn");
     }
 
+    // Load project data from JSON
+    async function loadProjectData() {
+        try {
+            const response = await fetch('data/projects.json');
+            if (!response.ok) {
+                throw new Error('Failed to load project data');
+            }
+            const data = await response.json();
+
+            // Populate each project
+            data.projects.forEach(project => {
+                const projectElement = document.querySelector(`[data-project-id="${project.id}"]`);
+                if (projectElement) {
+                    const titleElement = projectElement.querySelector('.project-title');
+                    const descriptionElement = projectElement.querySelector('.project-description');
+
+                    if (titleElement) {
+                        titleElement.textContent = project.title;
+                    }
+                    if (descriptionElement) {
+                        descriptionElement.textContent = project.description;
+                    }
+                }
+            });
+        } catch (error) {
+            console.error('Error loading project data:', error);
+            // Keep "Loading..." text if there's an error
+        }
+    }
+
+    // Load project data when page loads
+    loadProjectData();
+
     // Theme toggle functionality
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");

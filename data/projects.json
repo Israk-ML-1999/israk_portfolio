@@ -1,0 +1,53 @@
+{
+    "projects": [
+        {
+            "id": "project-1",
+            "title": "Doctor Appointment Booking System",
+            "description": "A comprehensive healthcare management system that streamlines the appointment booking process for patients and doctors. Built with modern web technologies to provide an intuitive user experience.",
+            "github": "https://github.com/Israk-ML-1999/Doctor-appointment-booking-system.-.git",
+            "image": "img/port1.jpg"
+        },
+        {
+            "id": "project-2",
+            "title": "Medical Chatbot using RAG",
+            "description": "An intelligent medical chatbot powered by Generative AI and Retrieval-Augmented Generation (RAG) to provide accurate medical information and assistance to users.",
+            "github": "https://github.com/Israk-ML-1999/Medical-Chatbot-Gen-AI-Using-RAG.git",
+            "image": "img/port2.jpg"
+        },
+        {
+            "id": "project-3",
+            "title": "Daily Life Personal Voice Assistant",
+            "description": "A smart voice assistant application designed to help with daily tasks, reminders, and information retrieval using natural language processing and speech recognition technologies.",
+            "github": "https://github.com/Israk-ML-1999/Daily-Life-Personal-Voice-Assistant.git",
+            "image": "img/port3.jpg"
+        },
+        {
+            "id": "project-4",
+            "title": "AI Video Summarizer with Multi-Agent Tools",
+            "description": "An advanced AI system that transcribes and summarizes video content using multi-agent architecture, making it easy to extract key information from long videos.",
+            "github": "https://github.com/Israk-ML-1999/AI-Video-Summarizer-transcribed-text-with-Multi-Agent-Tools.git",
+            "image": "img/port4.jpg"
+        },
+        {
+            "id": "project-5",
+            "title": "AI-Powered E-Commerce Inventory Tracking",
+            "description": "A real-time inventory management system for e-commerce platforms powered by AI to optimize stock levels, predict demand, and automate reordering processes.",
+            "github": "https://github.com/Israk-ML-1999/AI-powered-e-commerce-real-time-inventory-tracking..git",
+            "image": "img/port5.jpg"
+        },
+        {
+            "id": "project-6",
+            "title": "Natural Language to SQL System",
+            "description": "An innovative system that converts natural language queries into SQL statements, making database interactions accessible to non-technical users through AI-powered language understanding.",
+            "github": "https://github.com/Israk-ML-1999/Natural-Language-to-SQL-System.git",
+            "image": "img/port2.jpg"
+        },
+        {
+            "id": "project-7",
+            "title": "Bangla News Headline Classifier & Sentiment Analysis",
+            "description": "A fine-tuned Bangla-BART model for multi-level, multi-class classification of Bangla news headlines with sentiment analysis capabilities, supporting the Bangla language NLP ecosystem.",
+            "github": "https://github.com/Israk-ML-1999/Bangla-News-Headline-Classifier-and-Sentiment-Analysis-fine-tuned-Bangla-BART-Multilevel-Multiclass.git",
+            "image": "img/port7.jpg"
+        }
+    ]
+}
