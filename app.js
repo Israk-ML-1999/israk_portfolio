@@ -110,7 +110,7 @@
             },
             {
                 "id": "project-8",
-                "title": "Willmo Voice Assistant",
+                "title": "Hire Rises– Personal Growth Assistant App",
                 "description": "An advanced AI-powered voice assistant designed to provide intelligent conversational interactions, task automation, and personalized assistance through natural language processing and speech recognition technologies."
             },
             {
