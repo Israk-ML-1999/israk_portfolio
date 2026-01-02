@@ -85,7 +85,7 @@
             },
             {
                 "id": "project-3",
-                "title": "Daily Life Personal Voice Assistant",
+                "title": "Daily Life Personal Voice Assistant App",
                 "description": "Developed AI-powered voice assistant that lets you manage your tasks hands-free through natural voice commands. Built with FastAPI and leveraging OpenAI’s advanced language models. Answers questions about your schedule, and provides contextual assistance for task management."
             },
             {
