@@ -117,6 +117,11 @@
                 "id": "project-9",
                 "title": "Document Segmentation & Automate Rotation",
                 "description": "A computer vision system that automatically segments documents and corrects their orientation using deep learning techniques. Detects document boundaries, classifies rotation angles, and applies automated corrections for improved document processing workflows."
+            },
+            {
+                "id": "project-10",
+                "title": "Multi-Modal RAG-Based Pilot Compliance Checking System",
+                "description": "Developed an AI-driven compliance monitoring system that verifies pilot flight schedules against airline regulations and rulse violation checking. RAG pipeline to extract duty and rest information from screenshots and PDFs using Vision AI, semantic retrieval via vector embeddings. Designed automated knowledge re-indexing that removes outdated embeddings and rebuilds the vector DB when new rulebooks are uploaded. currently used in production by over 1000 pilots."
             }
         ]
     };
