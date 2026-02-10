@@ -122,6 +122,11 @@
                 "id": "project-10",
                 "title": "Multi-Modal RAG-Based Pilot Compliance Checking System",
                 "description": "Developed an AI-driven compliance monitoring system that verifies pilot flight schedules against airline regulations and rulse violation checking. RAG pipeline to extract duty and rest information from screenshots and PDFs using Vision AI, semantic retrieval via vector embeddings. Designed automated knowledge re-indexing that removes outdated embeddings and rebuilds the vector DB when new rulebooks are uploaded. currently used in production by over 1000 pilots."
+            },
+            {
+                "id": "project-11",
+                "title": "AI power Sales Campaign CRM MVP paralel procassing with Groq",
+                "description": "This project is a Minimum Viable Product (MVP) for an AI-powered Sales Campaign CRM, leveraging the Groq platform for lead enrichment and automation. It automates the process of generating personalized sales emails, sending them, and tracking lead responses."
             }
         ]
     };
